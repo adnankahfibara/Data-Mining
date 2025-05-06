@@ -1,2 +1,3 @@
-# Data-Mining
-Tugas
+Tugas Data-Mining
+Penjelasan
+“Dataset Diabetes” ini berisi analisis data dan pembuatan model machine learning untuk memprediksi risiko diabetes. Data diambil dari Kaggle menggunakan library kagglehub, dan dimuat ke dalam program menggunakan pandas. Fitur yang digunakan dalam prediksi antara lain kebiasaan merokok (smoker), indeks massa tubuh (bmi), dan usia (age), dengan target prediksi berupa status risiko diabetes (at_risk_diabetes). Data kemudian dibagi menjadi data latih dan data uji, lalu dilatih menggunakan algoritma Decision Tree Classifier dengan kedalaman pohon maksimum 3. Setelah model dilatih, notebook menghitung akurasinya dan menampilkan struktur pohon keputusan dalam bentuk visual. Tujuan dari notebook ini adalah untuk menunjukkan bagaimana teknik sederhana dalam machine learning dapat digunakan untuk mengenali pola yang berhubungan dengan risiko diabetes.
